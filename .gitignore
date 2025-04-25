@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# === Environment ===
+.venv/
+.env
+.env.*
+
+# === Dependency files ===
+poetry.lock
+Pipfile.lock
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+.DS_Store
+
+# === Output files ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Test artifacts ===
+*.coverage
+htmlcov/
+.coverage.*
+.cache/
+.pytest_cache/
+
+# === Compiled notebooks ===
+*.ipynb_checkpoints
+
+# === Docker ===
+*.tar
+docker-compose.override.yml
+
+# === Project-specific ===
+revision_output.json
+on_writing.pdf
