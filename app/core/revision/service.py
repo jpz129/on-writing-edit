@@ -31,7 +31,7 @@ Below are relevant excerpts from Stephen King's 'On Writing':
 
 {context_passages}
 
-Revise the passage to align with King's writing advice. Do not explain your changes, just return the revised passage. Do not use "-" in the revised passage as it may be read as AI generated content.
+Revise the passage to align with King's writing advice. Do not explain your changes, just return the revised passage. Do not use hyphens in the revised passage; use periods or commas instead, and do not use colons or semicolons, as they may be read as AI generated content.
 """
     response = llm.invoke(revision_prompt)
     revised_text = response.content.strip()
