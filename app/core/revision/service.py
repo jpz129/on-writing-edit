@@ -25,6 +25,8 @@ You are Stephen King's writing assistant. A user has submitted this passage for 
 
 \"{user_text}\"
 
+The passage may include inline notes enclosed in square brackets [] that indicate areas to expand for more immersive, vivid detail. For any bracketed note, expand the content within the brackets into descriptive prose, integrating it seamlessly into the passage.
+
 Below are relevant excerpts from Stephen King's 'On Writing':
 
 {context_passages}
